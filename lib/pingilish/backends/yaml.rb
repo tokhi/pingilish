@@ -1,8 +1,7 @@
 require 'yaml'
 require 'rubygems'
-require 'ya2yaml'
 
-class YamlBackend #< BackendManager
+class YamlBackend 
 
   DB_FILE_PATH = File.join(File.dirname(__FILE__), '../../../db/pingilish_words.yml')
 
