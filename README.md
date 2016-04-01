@@ -31,7 +31,7 @@ Pingilish.to_default("توانا بود هرکه دانا بود")
 
  # english to farsi
  Pingilish.to_farsi("nabordeh ranj ganj moiasar namishawad")
- => "نبرده رنج گنج میسر نمیشود "
+ => "نابرده رنج گنج میسر نمیشود "
 ```
 
 ## Development
