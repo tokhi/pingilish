@@ -1,7 +1,8 @@
-require '../lib/pingilish'
+# encoding: utf-8
+require './lib/pingilish'
+farsi_txt = File.open("data/persian.txt", "r:UTF-8", &:read)
+far = Pingilish.new(farsi_txt)
 
-far = Pingilish.new("اینکه مولانا عارف بزرگی‌ بوده من شکی ندارم ولی‌ این حرف‌هایی‌ که اینجا زده از ب
-                    یخ چرت و پرته همش. برای اینه که بگیم چیزی رو که مثلا انیشتین گفت قبلان مولانا گفته بود.")
 puts far.to_pingilish
  
 pin = Farsi.new("dar inke molana aref e bozorgi boodeh man shakki nadaram vali in harf hayee ke inja zadeh az bikh chert o perte hamash. baraye ine ke begim chizi ro ke masalan anishtain gofte ghablan molana gofte bood")
