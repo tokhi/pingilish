@@ -1,8 +1,9 @@
 # Pingilish
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pingilish`. To experiment with that code, run `bin/console` for an interactive prompt.
+pinglish gem converts Persian/farsi text to english and vice versa.
 
-TODO: Delete this and the text above, and describe your gem
+This gem is an improvements of the efforts made by [Aziz](https://github.com/aziz/pingilish.git).
+
 
 ## Installation
 
@@ -22,7 +23,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# farsi to english
+Pingilish.to_default("توانا بود هرکه دانا بود")
+ => "toana bod hrkh dana bod"
+
+
+ # english to farsi
+ Pingilish.to_farsi("nabordeh ranj ganj moiasar namishawad")
+ => "نبرده رنج گنج میسر نمیشود "
+```
 
 ## Development
 
@@ -32,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/pingilish.
+This gem requires a lot of improvments so bug reports and pull requests are welcome.
 
 
 ## License
